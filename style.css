@@ -2490,6 +2490,9 @@ figure a .text-overlay .info span {
 .panel.pricing .panel-heading {
     padding: 30px 0
 }
+.panel.pricing .panel-heading .section-title {
+    padding: 0 20px;
+}
 .panel.pricing .panel-title {
     text-transform: uppercase;
     margin: 0;

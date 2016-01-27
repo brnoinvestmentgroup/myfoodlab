@@ -56,80 +56,40 @@
 <!-- // hlavicka -->
   
 <div class="offset"></div>
-    
-<!-- ** mapa -->
-<div class="white-wrapper">
-    <div class="map-wrapper">
-        <div id="map" style="height: 460px;"> </div>
-        <!-- textbox -->
-        <div class="text">
-            <div class="inner-col">
-                <div class="section-title">
-                    <h3>Buďte s námi v kontaktu</h3>
-                </div>
-                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-                <div class="contact-info">
-                    <i class="icon-user"></i>Tomáš Václavík<br>
-                    <i class="icon-location"></i>Kaštanová 520, 617 00  Brno – Horní Heršpice<br>
-                    <i class="icon-phone"></i>+420 776 760 700<br>
-                    <i class="icon-mail"></i> <a href="mailto:tomas.vaclavik@myfoodlab.cz">tomas.vaclavik@myfoodlab.cz</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- google map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1xdEVYy8IZdBKJGQp_QpDWaNQT7ZHGhY&amp;sensor=false&amp;extension=.js"></script> 
-    <script> google.maps.event.addDomListener(window, 'load', init);
-    var map;
-    function init() {
-        var mapOptions = {
-            center: new google.maps.LatLng(49.1647169, 16.6292108),
-            zoom: 15,
-            zoomControl: true,
-            zoomControlOptions: {
-                style: google.maps.ZoomControlStyle.DEFAULT,
-            },
-            disableDoubleClickZoom: false,
-            mapTypeControl: true,
-            mapTypeControlOptions: {
-                style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-            },
-            scaleControl: true,
-            scrollwheel: false,
-            streetViewControl: true,
-            draggable : true,
-            overviewMapControl: false,
-            mapTypeId: google.maps.MapTypeId.ROADMAP,
-            styles: [{stylers:[{saturation:-100},{gamma:1}]},{elementType:"labels.text.stroke",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"road",elementType:"geometry",stylers:[{visibility:"simplified"}]},{featureType:"water",stylers:[{visibility:"on"},{saturation:50},{gamma:0},{hue:"#50a5d1"}]},{featureType:"administrative.neighborhood",elementType:"labels.text.fill",stylers:[{color:"#333333"}]},{featureType:"road.local",elementType:"labels.text",stylers:[{weight:0.5},{color:"#333333"}]},{featureType:"transit.station",elementType:"labels.icon",stylers:[{gamma:1},{saturation:50}]}]
-            }
 
-        var mapElement = document.getElementById('map');
-        var map = new google.maps.Map(mapElement, mapOptions);
-        var locations = [
-            ['Kaštanová 520, 617 00 Brno', 49.1647169, 16.6292108]
-        ];
-        for (i = 0; i < locations.length; i++) {
-            marker = new google.maps.Marker({
-                icon: 'style/images/map-pin.png',
-                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
-                map: map
-            });
-        }
-    }
-    </script> 
-</div>
-<!-- // mapa -->
-    
 <!-- ** uvodni text -->
 <div class="light-wrapper">
     <div class="container inner">
         <div class="section-title text-center">
-            <h2>Naše poslání</h2>
+            <h2>My Food Lab</h2>
         </div>
-        <p class="lead text-center">Podporujeme nové a mladé podnikatele v oboru řemeslné výroby potravin. Přinášíme řešení těm, kteří mají chuť začít podnikat v oblasti výroby potravin nebo gastronomie, ale nemají finanční prostředky nutné k investici do profesionálního vybavení výrobní provozovny. </p>
+        <p class="lead text-center">Je podnikatelský inkubátor, nabízející začínajícím podnikatelům levný přístup do plně vybavené a všem předpisům odpovídající kuchyně pro zahájení výroby kvalitních potravin či nápojů. Eliminujeme rizika spojená s investicí do vlastní provozovny.<br /> 
+        <a href="inkubator.html">Zjistěte více informací</a> a staňte se členem. </p>
     </div>
 </div>
 <!-- // uvodni text -->
+
+<!-- ** nase poslani -->
+<div class="white-wrapper">
+    <div class="col-image">
+        <div class="bg-wrapper col-md-6">
+            <div class="bg-holder" style="background-image: url(style/images/art/tym.jpg);"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-7 inner-col">
+                    <div class="section-title">
+                        <h2>Naše poslání</h2>
+                    </div>
+                    <p class="lead">Podporujeme nové a mladé podnikatele v oboru řemeslné výroby potravin.</p>
+                    
+                    <p>Přinášíme řešení těm, kteří mají chuť začít podnikat v oblasti výroby potravin nebo gastronomie, ale nemají finanční prostředky nutné k investici do profesionálního vybavení výrobní provozovny.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- // nase poslani -->
   
 <!-- ** nas tym -->  
 <div class="light-wrapper">
@@ -235,7 +195,71 @@
 </div>
 </div>
 <!-- // partneri -->
-  
+
+<!-- ** mapa -->
+<div class="white-wrapper">
+    <div class="map-wrapper">
+        <div id="map" style="height: 460px;"> </div>
+        <!-- textbox -->
+        <div class="text">
+            <div class="inner-col">
+                <div class="section-title">
+                    <h3>Buďte s námi v kontaktu</h3>
+                </div>
+                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                <div class="contact-info">
+                    <i class="icon-user"></i>Tomáš Václavík<br>
+                    <i class="icon-location"></i>Kaštanová 520, 617 00  Brno – Horní Heršpice<br>
+                    <i class="icon-phone"></i>+420 776 760 700<br>
+                    <i class="icon-mail"></i> <a href="mailto:tomas.vaclavik@myfoodlab.cz">tomas.vaclavik@myfoodlab.cz</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- google map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1xdEVYy8IZdBKJGQp_QpDWaNQT7ZHGhY&amp;sensor=false&amp;extension=.js"></script> 
+    <script> google.maps.event.addDomListener(window, 'load', init);
+    var map;
+    function init() {
+        var mapOptions = {
+            center: new google.maps.LatLng(49.1647169, 16.6292108),
+            zoom: 15,
+            zoomControl: true,
+            zoomControlOptions: {
+                style: google.maps.ZoomControlStyle.DEFAULT,
+            },
+            disableDoubleClickZoom: false,
+            mapTypeControl: true,
+            mapTypeControlOptions: {
+                style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+            },
+            scaleControl: true,
+            scrollwheel: false,
+            streetViewControl: true,
+            draggable : true,
+            overviewMapControl: false,
+            mapTypeId: google.maps.MapTypeId.ROADMAP,
+            styles: [{stylers:[{saturation:-100},{gamma:1}]},{elementType:"labels.text.stroke",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.business",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.text",stylers:[{visibility:"off"}]},{featureType:"poi.place_of_worship",elementType:"labels.icon",stylers:[{visibility:"off"}]},{featureType:"road",elementType:"geometry",stylers:[{visibility:"simplified"}]},{featureType:"water",stylers:[{visibility:"on"},{saturation:50},{gamma:0},{hue:"#50a5d1"}]},{featureType:"administrative.neighborhood",elementType:"labels.text.fill",stylers:[{color:"#333333"}]},{featureType:"road.local",elementType:"labels.text",stylers:[{weight:0.5},{color:"#333333"}]},{featureType:"transit.station",elementType:"labels.icon",stylers:[{gamma:1},{saturation:50}]}]
+            }
+
+        var mapElement = document.getElementById('map');
+        var map = new google.maps.Map(mapElement, mapOptions);
+        var locations = [
+            ['Kaštanová 520, 617 00 Brno', 49.1647169, 16.6292108]
+        ];
+        for (i = 0; i < locations.length; i++) {
+            marker = new google.maps.Marker({
+                icon: 'style/images/map-pin.png',
+                position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                map: map
+            });
+        }
+    }
+    </script> 
+</div>
+<!-- // mapa -->
+
+
   <!-- ** paticka -->
 <footer class="inverse-wrapper">
 <div class="container inner">
@@ -250,10 +274,12 @@
         <div class="col-sm-3">
             <div class="widget">
             <h3 class="section-title widget-title">Kontakt</h3>
-            <div class="contact-info"> <i class="icon-location"></i>Kaštanová 520, 617 00 Brno<br />
-                <i class="icon-phone"></i>+420 776 760 700<br />
-                <i class="icon-mail"></i> <a href="mailto:tomas.vaclavik@myfoodlab.cz">tomas.vaclavik@myfoodlab.cz</a>
-            </div>
+                <div class="contact-info"> 
+                    <i class="icon-user"></i>Tomáš Václavík<br />
+                    <i class="icon-phone"></i>+420 776 760 700<br />
+                    <i class="icon-mail"></i> <a href="mailto:tomas.vaclavik@myfoodlab.cz">tomas.vaclavik@myfoodlab.cz</a><br />
+                    <i class="icon-location"></i>Kaštanová 520, 617 00 Brno
+                </div>
             </div> 
         </div>
         <!-- newsletter -->
