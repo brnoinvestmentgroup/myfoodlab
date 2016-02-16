@@ -12,9 +12,25 @@
 <link href="style/css/plugins.css" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
 <link href="style/css/color/myfood.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <link href="style/type/icons.css" rel="stylesheet">
+<!-- favicons & icons -->
+<link rel="apple-touch-icon" sizes="57x57" href="style/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="style/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="style/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="style/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="style/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="style/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="style/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="style/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="style/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="style/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="style/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="style/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="style/favicons/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="style/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -39,14 +55,14 @@
         <nav class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="index.html">Domů</a></li>
-                <li class="dropdown"><a href="inkubator.html" class="dropdown-toggle js-activated">Inkubátor <span class="caret"></span></a>
+                <li class="dropdown"><a href="inkubator.html" class="dropdown-toggle js-activated">Inkubační program <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="inkubator.html">Inkubační program</a></li>
+                        <li><a href="inkubator.html">Inkubátor</a></li>
                         <li><a href="vzdelavani.html">Vzdělávání</a></li>
                         <li><a href="kuchyne.html">Pronájem kuchyně</a></li>
                     </ul>
                 </li>
-                <li class="current"><a href="cenik.html">Členství</a></li>
+                <li class="current"><a href="cenik.html">Ceník</a></li>
                 <li><a href="onas.html">O nás</a></li>
                 <li><a href="registrace.html">Registrace</a></li>
             </ul>
@@ -60,89 +76,134 @@
 <!-- ** cenik 1 -->    
 <div class="light-wrapper">
     <div class="container inner">
-        <div class="section-title text-center">
-            <h1>Nabízíme tři druhy členství</h1>
-        </div>
         <div class="row">
             <!-- 1. sloupec -->
             <div class="col-sm-12 col-md-4">
+                <div class="section-title text-center">
+                    <h3>Zkouším to</h3>
+                    <p class="lead">Ráda vařím, chci si zkusit, zda bych se tím mohla živit</p>
+                </div>
                 <div class="pricing panel">
                     <div class="panel-heading">
-                        <div class="section-title text-center">
-                            <h3>Zkouším to</h3>
-                            <p class="lead">Ráda vařím, chci si zkusit, zda bych se tím mohla živit</p>
-                        </div>
+                        <h4 class="green">roční členství</h4>
                     </div>
                     <div class="panel-body">
                         <table class="table">
                             <tr>
-                                <td>členství: <strong>9 000 Kč</strong> / rok</td>
+                                <td>roční členství není možné</td>
                             </tr>
                             <tr>
-                                <td><strong>30 h</strong> kuchyně v ceně</td>
+                                <td>---</td>
                             </tr>
                             <tr>
-                                <td><strong>2 h</strong> poradenství v ceně</td>
+                                <td>---</td>
                             </tr>
                         </table>
                     </div>
                 </div>
-                <div class="text-center">
-                    <a href="registrace.html" class="btn">Stát se členem</a>
+                <div class="pricing panel">
+                    <div class="panel-heading">
+                        <h4 class="green">měsíční členství</h4>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table">
+                            <tr>
+                                <td><strong>250 Kč</strong> / měsíc</td>
+                            </tr>
+                            <tr>
+                                <td>---</td>
+                            </tr>
+                            <tr>
+                                <td>---</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
             <!-- 2. sloupec -->
             <div class="col-sm-12 col-md-4">
+                <div class="section-title text-center">
+                    <h3>Začínám podnikat</h3>
+                    <p class="lead">Začínám podnikat, <br />potřebuji provozovnu</p>
+                </div>
                 <div class="pricing panel">
                     <div class="panel-heading">
-                        <div class="section-title text-center">
-                            <h3>Začínám podnikat</h3>
-                            <p class="lead">Začínám podnikat, <br />potřebuji provozovnu</p>
-                        </div>
+                        <h4 class="green">roční členství</h4>
                     </div>
                     <div class="panel-body">
                         <table class="table">
                             <tr>
-                                <td>členství: <strong>15 000 Kč</strong> / rok</td>
+                                <td><strong>4 000 Kč</strong> / rok</td>
                             </tr>
                             <tr>
-                                <td><strong>60 h</strong> kuchyně v ceně</td>
+                                <td><strong>60 hod.</strong> kuchyně zdarma</td>
                             </tr>
                             <tr>
-                                <td><strong>4 h </strong> poradenství v ceně</td>
+                                <td><strong>12 hod. </strong> poradenství zdarma</td>
                             </tr>
                         </table>
                     </div>
                 </div>
-                <div class="text-center">
-                    <a href="registrace.html" class="btn">Stát se členem</a>
+                <div class="pricing panel">
+                    <div class="panel-heading">
+                        <h4 class="green">měsíční členství</h4>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table">
+                            <tr>
+                                <td><strong>500 Kč</strong> / měsíc</td>
+                            </tr>
+                            <tr>
+                                <td><strong>5 hod.</strong> kuchyně zdarma</td>
+                            </tr>
+                            <tr>
+                                <td><strong>1 hod. </strong> poradenství zdarma</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
             <!-- 3. sloupec -->
             <div class="col-sm-12 col-md-4">
+                <div class="section-title text-center">
+                    <h3>Rozšiřuji podnikání</h3>
+                    <p class="lead">Podnikám, daří se mi, potřebuji větší prostor</p>
+                </div>
                 <div class="pricing panel">
                     <div class="panel-heading">
-                        <div class="section-title text-center">
-                            <h3>Rozšiřuji podnikání</h3>
-                            <p class="lead">Podnikám, daří se mi, potřebuji větší prostor</p>
-                        </div>
+                        <h4 class="green">roční členství</h4>
                     </div>
                     <div class="panel-body">
                         <table class="table">
                             <tr>
-                                <td>členství: <strong>20 000 Kč</strong> / rok</td>
+                                <td><strong>7 500 Kč</strong> / rok</td>
                             </tr>
                             <tr>
-                                <td><strong>100 h</strong> kuchyně v ceně</td>
+                                <td><strong>120 hod.</strong> kuchyně zdarma</td>
                             </tr>
                             <tr>
-                                <td><strong>8 h </strong> poradenství v ceně</td>
+                                <td><strong>24 hod. </strong> poradenství zdarma</td>
                             </tr>
                         </table>
                     </div>
                 </div>
-                <div class="text-center">
-                    <a href="registrace.html" class="btn">Stát se členem</a>
+                <div class="pricing panel">
+                    <div class="panel-heading">
+                        <h4 class="green">měsíční členství</h4>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table">
+                            <tr>
+                                <td><strong>750 Kč</strong> / měsíc</td>
+                            </tr>
+                            <tr>
+                                <td><strong>10 hod.</strong> kuchyně zdarma</td>
+                            </tr>
+                            <tr>
+                                <td><strong>2 hod. </strong> poradenství zdarma</td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
         </div>
@@ -154,7 +215,7 @@
 <div class="color-wrapper inverse-wrapper green-bg">
     <div class="container inner text-center">
         <div class="thin">
-            <h2>Zaregistrujte se do inkubátoru My FOOD Lab a získejte přistup do kuchyní.</h2>
+            <h2>Zaregistrujte se do našeho inkubátoru My FOOD Lab a získejte přistup do našich kuchyní.</h2>
             <div class="divide10"></div>
             <a href="registrace.html" class="btn btn-border bm0">Zaregistrovat se</a>
         </div>
@@ -172,37 +233,13 @@
             <div class="col-sm-6 col-md-3">
                 <div class="pricing panel">
                     <div class="panel-heading">
-                        <h3 class="panel-title">My FOOD Lab</h3>
+                        <h3 class="panel-title">My Food Lab</h3>
                         <div class="price"><span class="price-value">10</span></div>
-                        <span class="time">hodin</span>
                     </div>
                     <div class="panel-body">
                         <table class="table">
                             <tr>
-                                <td><strong>3 500 Kč</strong> / balíček </td>
-                            </tr>
-                            <tr>
-                                <td><strong>350 Kč</strong> / hodina </td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="text-center">
-                    <a href="mailto:tomas.vaclavik@myfoodlab.cz?subject=Chci si objednat MY FOOD LAB 10" class="btn">Koupit</a>
-                </div>
-            </div>
-            <!-- 2. sloupec -->
-            <div class="col-sm-6 col-md-3">
-                <div class="pricing panel">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">My FOOD Lab</h3>
-                        <div class="price"><span class="price-value">30</span></div>
-                        <span class="time">hodin</span>
-                    </div>
-                    <div class="panel-body">
-                        <table class="table">
-                            <tr>
-                                <td><strong>9 000 Kč</strong> / balíček </td>
+                                <td><strong>3 000 Kč</strong> / balíček </td>
                             </tr>
                             <tr>
                                 <td><strong>300 Kč</strong> / hodina </td>
@@ -210,22 +247,18 @@
                         </table>
                     </div>
                 </div>
-                <div class="text-center">
-                    <a href="mailto:tomas.vaclavik@myfoodlab.cz?subject=Chci si objednat MY FOOD LAB 30" class="btn">Koupit</a>
-                </div>
             </div>
-            <!-- 3. sloupec -->
+            <!-- 2. sloupec -->
             <div class="col-sm-6 col-md-3">
                 <div class="pricing panel">
                     <div class="panel-heading">
-                        <h3 class="panel-title">My FOOD Lab</h3>
-                        <div class="price"><span class="price-value">60</span></div>
-                        <span class="time">hodin</span>
+                        <h3 class="panel-title">My Food Lab</h3>
+                        <div class="price"><span class="price-value">30</span></div>
                     </div>
                     <div class="panel-body">
                         <table class="table">
                             <tr>
-                                <td><strong>15 000 Kč</strong> / balíček </td>
+                                <td><strong>7 500 Kč</strong> / balíček </td>
                             </tr>
                             <tr>
                                 <td><strong>250 Kč</strong> / hodina </td>
@@ -233,8 +266,24 @@
                         </table>
                     </div>
                 </div>
-                <div class="text-center">
-                    <a href="mailto:tomas.vaclavik@myfoodlab.cz?subject=Chci si objednat MY FOOD LAB 60" class="btn">Koupit</a>
+            </div>
+            <!-- 3. sloupec -->
+            <div class="col-sm-6 col-md-3">
+                <div class="pricing panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">My Food Lab</h3>
+                        <div class="price"><span class="price-value">60</span></div>
+                    </div>
+                    <div class="panel-body">
+                        <table class="table">
+                            <tr>
+                                <td><strong>12 000 Kč</strong> / balíček </td>
+                            </tr>
+                            <tr>
+                                <td><strong>200 Kč</strong> / hodina </td>
+                            </tr>
+                        </table>
+                    </div>
                 </div>
             </div>
             <!-- 4. sloupec -->
@@ -243,21 +292,17 @@
                     <div class="panel-heading">
                         <h3 class="panel-title">My Food Lab</h3>
                         <div class="price"><span class="price-value">100</span></div>
-                        <span class="time">hodin</span>
                     </div>
                     <div class="panel-body">
                         <table class="table">
                             <tr>
-                                <td><strong>20 000 Kč</strong> / balíček </td>
+                                <td><strong>15 000 Kč</strong> / balíček </td>
                             </tr>
                             <tr>
-                                <td><strong>200 Kč</strong> / hodina </td>
+                                <td><strong>150 Kč</strong> / hodina </td>
                             </tr>
                         </table>
                     </div>
-                </div>
-                <div class="text-center">
-                    <a href="mailto:tomas.vaclavik@myfoodlab.cz?subject=Chci si objednat MY FOOD LAB 100" class="btn">Koupit</a>
                 </div>
             </div>
         </div>
@@ -279,12 +324,10 @@
         <div class="col-sm-3">
             <div class="widget">
             <h3 class="section-title widget-title">Kontakt</h3>
-                <div class="contact-info"> 
-                    <i class="icon-user"></i>Tomáš Václavík<br />
-                    <i class="icon-phone"></i>+420 776 760 700<br />
-                    <i class="icon-mail"></i> <a href="mailto:tomas.vaclavik@myfoodlab.cz">tomas.vaclavik@myfoodlab.cz</a><br />
-                    <i class="icon-location"></i>Kaštanová 520, 617 00 Brno
-                </div>
+            <div class="contact-info"> <i class="icon-location"></i>Kaštanová 520, 617 00 Brno<br />
+                <i class="icon-phone"></i>+420 776 760 700<br />
+                <i class="icon-mail"></i> <a href="mailto:tomas.vaclavik@myfoodlab.cz">tomas.vaclavik@myfoodlab.cz</a>
+            </div>
             </div> 
         </div>
         <!-- newsletter -->
@@ -293,11 +336,13 @@
             <p>Přihlaště se k našemu newslleteru</p>
             <div class="newsletter-wrapper">
                 <div id="mc_embed_signup2" class="newsletter-form">
-                    <form action="http://myfoodlab.us12.list-manage.com/subscribe/post?u=55dbf8dea067b790b48fc424b&amp;id=b5184a4f07" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="zadejte e-mail" required>
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_55dbf8dea067b790b48fc424b_b5184a4f07" tabindex="-1" value=""></div>
+                    <form action="http://elemisfreebies.us3.list-manage1.com/subscribe/post?u=ddc180777a163e0f9f66ee014&amp;id=056957de28" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL2" placeholder="Zadejte email" required="">
+                        <div style="position: absolute; left: -5000px;">
+                            <input type="text" name="b_ddc180777a163e0f9f66ee014_056957de28" value="">
+                        </div>
                         <div class="clear">
-                            <input type="submit" value="Přihlásit" name="subscribe" id="mc-embedded-subscribe" class="btn">
+                            <input type="submit" value="Přihlásit se" name="subscribe" id="mc-embedded-subscribe2" class="btn">
                         </div>
                     </form>
                 </div>
@@ -309,15 +354,16 @@
                 <h3 class="section-title widget-title">Sociální sítě</h3>
                 <p>Buďte s námi v kontaktu na sociálních sítích ...</p>
                 <ul class="social">
-                    <li><a href="https://www.facebook.com/MY-FOOD-Lab-893766777402882/?fref=ts" target="_blank"><i class="icon-s-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/myfoodlabbrno/" target="_blank"><i class="icon-s-instagram"></i></a></li>
+                    <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+                    <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+                    <li><a href="#"><i class="icon-s-linkedin"></i></a></li>
                 </ul>
             </div>
         </div>
     </div>
     <hr />
     <!-- copyright & menu -->
-    <p class="copyright pull-left">© 2016 My FOOD Lab</p>
+    <p class="copyright pull-left">© 2015 My FOOD Lab</p>
     <ul class="footer-menu pull-right">
         <li><a href="index.html">Domů</a></li>
         <li><a href="inkubator.html">Inkubační program</a></li>
@@ -337,12 +383,5 @@
 <script src="style/js/jquery.themepunch.tools.min.js"></script> 
 <script src="style/js/scripts.js"></script>
     
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KB2QM6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KB2QM6');
-</script>
-<!-- End Google Tag Manager -->
-
 </body>
 </html>

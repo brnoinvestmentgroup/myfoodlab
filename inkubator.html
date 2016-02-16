@@ -6,15 +6,31 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="shortcut icon" href="style/images/favicon.png">
-<title>Inkubační program - My FOOD Lab</title>
+<title>Inkubační program - My Food Lab</title>
 <!-- Bootstrap core CSS -->
 <link href="style/css/bootstrap.min.css" rel="stylesheet">
 <link href="style/css/plugins.css" rel="stylesheet">
 <link href="style.css" rel="stylesheet">
-<link href="style/css/color/myfood.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href="style/css/color/myfood.css" rel="stylesheet"><link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'><link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 <link href="style/type/icons.css" rel="stylesheet">
+<!-- favicons & icons -->
+<link rel="apple-touch-icon" sizes="57x57" href="style/favicons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="style/favicons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="style/favicons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="style/favicons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="style/favicons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="style/favicons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="style/favicons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="style/favicons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="style/favicons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="style/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="style/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="style/favicons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="style/favicons/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="style/favicons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -39,14 +55,14 @@
         <nav class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
                 <li><a href="index.html">Domů</a></li>
-                <li class="current dropdown"><a href="inkubator.html" class="dropdown-toggle js-activated">Inkubátor <span class="caret"></span></a>
+                <li class="current dropdown"><a href="inkubator.html" class="dropdown-toggle js-activated">Inkubační program <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="inkubator.html">Inkubační program</a></li>
+                        <li><a href="inkubator.html">Inkubátor</a></li>
                         <li><a href="vzdelavani.html">Vzdělávání</a></li>
                         <li><a href="kuchyne.html">Pronájem kuchyně</a></li>
                     </ul>
                 </li>
-                <li><a href="cenik.html">Členství</a></li>
+                <li><a href="cenik.html">Ceník</a></li>
                 <li><a href="onas.html">O nás</a></li>
                 <li><a href="registrace.html">Registrace</a></li>
             </ul>
@@ -57,95 +73,7 @@
   
 <div class="offset"></div>
 
-<!-- ** cyklus (timeline) -->
-<div class="light-wrapper">
-    <div class="container inner">
-        <div class="section-title text-center">
-            <h1>Pomáháme začínajícím podnikatelům<br /> realizovat své kulinářské sny</h1>
-        </div>
-        <div class="section-title text-center">
-            <h2>Cyklus inkubačního programu</h2>
-        </div>
-        <div class="timeline">
-            <div class="row">
-                <div class="col-sm-6 timeline-item">
-                    <div class="arrow"></div>
-                    <div class="post-content">
-                        <h4>Registrace do programu inkubátoru</h4>
-                        <ul class="circled">
-                            <li>Přihlášení</li>
-                            <li>Zaslání stručného podnikatelského záměru</li>
-                            <li>Posouzení</li>
-                            <li>Přijetí</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 timeline-item right">
-                    <div class="arrow"></div>
-                    <div class="post-content">
-                        <h4>Inkubační období</h4>
-                        <ul class="circled">
-                            <li>Možnost využití výrobních prostor k výrobě vlastních produktů.</li>
-                            <li>Vzdělávací program: mentoři a lektoři inkubátoru poskytnou zájemcům informace a rady v oblastech: Technologie výroby, Produkt, Marketing, Financování, Řízení.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 timeline-item">
-                    <div class="arrow"></div>
-                    <div class="post-content">
-                        <h4>Specializované kurzy</h4>
-                        <p>Na všeobecný úvodní Inkubační vzdělávací program navazují další specializované kurzy dle zaměření a potřeb zájemců (zpracování masa, mléka, ovoce, zeleniny, výroba pečiva, nápojů, apod.). Členové inkubátoru mají zvýhodněné vstupné na specializované kurzy pořádané Mendelovou univerzitou.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 timeline-item right">
-                    <div class="arrow"></div>
-                    <div class="post-content">
-                        <h4>Představení investorům</h4>
-                        <p>Představení úspěšných absolventů potenciálním investorům na My FOOD Lab konferenci.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 timeline-item">
-                    <div class="arrow"></div>
-                    <div class="post-content">
-                        <h4>Absolvování programu</h4>
-                        <p>Účastníci programu dosáhnout všech stanovených inkubačních měřítek a rozvíjí své podnikání mimo Inkubátor. Zůstávají nicméně nadále součástí společenství.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- // cyklus (timeline) -->
-
-<!-- ** pro koho -->
-<div class="white-wrapper">
-    <div class="col-image">
-        <div class="bg-wrapper col-md-6">
-            <div class="bg-holder" style="background-image: url(style/images/art/tym.jpg);"></div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-md-offset-7 inner-col">
-                    <div class="section-title">
-                        <h2>Pro koho je inkubátor určen?</h2>
-                    </div>
-                    <ul class="lead">
-                        <li>Nadšencům do výroby kvalitních potravin</li>
-                        <li>Začínajícím gastronomům, kteří chtějí vyzkoušet svůj koncept restaurace či cateringu</li>
-                        <li>Farmářům či zahradníkům na zpracování úrody</li>
-                        <li>Čerstvým absolventům</li>
-                        <li>Lidem, které chtějí změnit kariéru</li>
-                    </ul>
-                    <p >My FOOD Lab vám pomůže realizovat vaše kulinářské sny - rozjet podnik poskytnutím levného, bezrizikového přístupu do plně vybavené komerční kuchyně a výrobních provozů, odborné pomoci a poradenstvím.</p>
-                    <p>Díky spolupráci s Ústavem technologie potravin Agronomické fakulty Mendelovy univerzity v Brně nabízí My FOOD Lab odborné konzultace a poradenství od studentů a pedagogů, profesionálně vybavené laboratoře a výrobní prostory.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- // kuchyne: Kastanova -->
-
-<!-- ** vyhody text -->
+<!-- ** uvodni text -->
 <div class="light-wrapper">
     <div class="container inner">
         <div class="section-title text-center">
@@ -180,7 +108,7 @@
             <div class="col-sm-4">
                 <div class="feature">
                     <div class="icon"> <img src="style/images/icons/ic_market.png" alt="" /> </div>
-                    <h4>Prodej v našich My FOOD Marketech</h4>
+                    <h4>Prodej v našich My Food Marketech</h4>
                     <p>Možnosti testování prodeje a marketingu vašich výrobků v prodejnách My Food.</p>
                 </div>
             </div>
@@ -223,15 +151,63 @@
                 </div>
             </div> 
         </div>
+        <hr />
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Pomůžeme Vám také s</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <ul class="circled">
+                        <li>tvorbou nebo vyladěním podnikatelského záměru</li>
+                        <li>získáním nutných oprávnění a splnění právních předpisů pro výrobu</li>
+                        <li>tvorbou nových receptur</li>
+                    </ul> 
+                </div>
+                <div class="col-sm-4">
+                    <ul class="circled">
+                        <li>tvorbou strategie rozvoje trhu a získávání zákazníků</li>
+                        <li>tvorbou finančního plánu rozvoje podniku</li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="circled">
+                        <li>vstupem na trh prostřednictvím maloobchodní sítě My Food Market</li>
+                        <li>získáním investorů</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-<!-- // vyhod text -->
+<!-- // uvodni text -->
+    
+<!-- ** pro koho -->
+<div class="white-wrapper">
+    <div class="col-image">
+        <div class="bg-wrapper col-md-6">
+            <div class="bg-holder" style="background-image: url(style/images/art/tym.jpg);"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-7 inner-col">
+                    <div class="section-title">
+                        <h2>Pro koho je náš inkubátor určen?</h2>
+                    </div>
+                    <p class="lead">Čerstvým absolventům, ženám, které chtějí změnit kariéru, gastro nadšencům a dalším lidem, kteří se chtějí výrobou potravin či gastronomií částečně nebo plně živit.</p>
+                    <p>Všem těmto skupinám My Food Lab pomůže rozjet začínající podnik poskytnutím levného, bezrizikového přístupu do plně vybavené komerční kuchyně a výrobních provozů, technické zázemí, odbornou pomoc a poradenství.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- // kuchyne: Kastanova -->
     
 <!-- ** registracni prouzek -->
 <div class="color-wrapper inverse-wrapper green-bg">
     <div class="container inner text-center">
         <div class="thin">
-            <h2>Zaregistrujte se do inkubátoru My FOOD Lab a získejte přistup do kuchyní.</h2>
+            <h2>Zaregistrujte se do našeho inkubátoru My FOOD Lab a získejte přistup do našich kuchyní.</h2>
             <div class="divide10"></div>
             <a href="registrace.html" class="btn btn-border bm0">Zaregistrovat se</a>
         </div>
@@ -269,22 +245,22 @@
         <div class="row circle-wrapper">
             <div class="col-sm-4 col-md-3">
                 <div class="circle blue-bg">
-                    <div class="text">1. Registrujte se</div>
+                    <div class="text">Registrujte se</div>
                 </div>
             </div>
             <div class="col-sm-4 col-md-3">
                 <div class="circle blue-bg">
-                    <div class="text">2. Zaplaťte členství</div>
+                    <div class="text">Zaplaťte členství</div>
                 </div>
             </div>
             <div class="col-sm-4 col-md-3">
                 <div class="circle blue-bg">
-                    <div class="text">3. Rezervujte si čas</div>
+                    <div class="text">Rezervujte si čas</div>
                 </div>
             </div>
             <div class="col-sm-4 col-md-3">
                 <div class="circle blue-bg">
-                <div class="text">4. Vyberte kuchyň</div>
+                <div class="text">Vyberte kuchyň</div>
                 </div>
             </div>
         </div>
@@ -301,7 +277,7 @@
 <div class="color-wrapper inverse-wrapper green-bg">
     <div class="container inner text-center">
         <div class="thin">
-            <h2>Zaregistrujte se do inkubátoru My FOOD Lab a získejte přistup do kuchyní.</h2>
+            <h2>Zaregistrujte se do našeho inkubátoru My FOOD Lab a získejte přistup do našich kuchyní.</h2>
             <div class="divide10"></div>
             <a href="registrace.html" class="btn btn-border bm0">Zaregistrovat se</a>
         </div>
@@ -323,12 +299,10 @@
         <div class="col-sm-3">
             <div class="widget">
             <h3 class="section-title widget-title">Kontakt</h3>
-                <div class="contact-info"> 
-                    <i class="icon-user"></i>Tomáš Václavík<br />
-                    <i class="icon-phone"></i>+420 776 760 700<br />
-                    <i class="icon-mail"></i> <a href="mailto:tomas.vaclavik@myfoodlab.cz">tomas.vaclavik@myfoodlab.cz</a><br />
-                    <i class="icon-location"></i>Kaštanová 520, 617 00 Brno
-                </div>
+            <div class="contact-info"> <i class="icon-location"></i>Kaštanová 520, 617 00 Brno<br />
+                <i class="icon-phone"></i>+420 776 760 700<br />
+                <i class="icon-mail"></i> <a href="mailto:tomas.vaclavik@myfoodlab.cz">tomas.vaclavik@myfoodlab.cz</a>
+            </div>
             </div> 
         </div>
         <!-- newsletter -->
@@ -337,11 +311,13 @@
             <p>Přihlaště se k našemu newslleteru</p>
             <div class="newsletter-wrapper">
                 <div id="mc_embed_signup2" class="newsletter-form">
-                    <form action="http://myfoodlab.us12.list-manage.com/subscribe/post?u=55dbf8dea067b790b48fc424b&amp;id=b5184a4f07" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="zadejte e-mail" required>
-                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_55dbf8dea067b790b48fc424b_b5184a4f07" tabindex="-1" value=""></div>
+                    <form action="http://elemisfreebies.us3.list-manage1.com/subscribe/post?u=ddc180777a163e0f9f66ee014&amp;id=056957de28" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL2" placeholder="Zadejte email" required="">
+                        <div style="position: absolute; left: -5000px;">
+                            <input type="text" name="b_ddc180777a163e0f9f66ee014_056957de28" value="">
+                        </div>
                         <div class="clear">
-                            <input type="submit" value="Přihlásit" name="subscribe" id="mc-embedded-subscribe" class="btn">
+                            <input type="submit" value="Přihlásit se" name="subscribe" id="mc-embedded-subscribe2" class="btn">
                         </div>
                     </form>
                 </div>
@@ -353,15 +329,16 @@
                 <h3 class="section-title widget-title">Sociální sítě</h3>
                 <p>Buďte s námi v kontaktu na sociálních sítích ...</p>
                 <ul class="social">
-                    <li><a href="https://www.facebook.com/MY-FOOD-Lab-893766777402882/?fref=ts" target="_blank"><i class="icon-s-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/myfoodlabbrno/" target="_blank"><i class="icon-s-instagram"></i></a></li>
+                    <li><a href="#"><i class="icon-s-facebook"></i></a></li>
+                    <li><a href="#"><i class="icon-s-twitter"></i></a></li>
+                    <li><a href="#"><i class="icon-s-linkedin"></i></a></li>
                 </ul>
             </div>
         </div>
     </div>
     <hr />
     <!-- copyright & menu -->
-    <p class="copyright pull-left">© 2016 My FOOD Lab</p>
+    <p class="copyright pull-left">© 2015 My FOOD Lab</p>
     <ul class="footer-menu pull-right">
         <li><a href="index.html">Domů</a></li>
         <li><a href="inkubator.html">Inkubační program</a></li>
@@ -380,13 +357,6 @@
 <script src="style/js/plugins.js"></script> 
 <script src="style/js/jquery.themepunch.tools.min.js"></script> 
 <script src="style/js/scripts.js"></script>
-
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KB2QM6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>
-(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-KB2QM6');
-</script>
-<!-- End Google Tag Manager -->
-
+    
 </body>
 </html>
