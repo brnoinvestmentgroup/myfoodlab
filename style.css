@@ -44,7 +44,7 @@ Author:		elemis
 	34. RESPONSIVE
 	
 	font-family: 'Lato', sans-serif;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text: #757575
 	hover: #45be84
 	headings: #434343
@@ -72,7 +72,8 @@ figure {
 }
 figure img {
     height: auto;
-    width: 100%;
+    width: 50%;
+    border-radius: 50%;
     max-width: 100%;
 }
 iframe {
@@ -223,7 +224,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 0;
     color: #434343;
     margin-bottom: 10px;
@@ -585,7 +586,7 @@ footer .date:before {
 .footer-menu li {
     display: inline;
     padding-left: 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -676,7 +677,7 @@ footer ul.circled li:before {
     box-shadow: none;
     border-radius: 4px;
     display: inline-block;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .navigation .btn {
     margin-bottom: 0
@@ -879,7 +880,7 @@ footer ul.circled li:before {
     left: 0;
     padding: 0;
     margin: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: none;
 }
 .container>.navbar-header {
@@ -1157,7 +1158,7 @@ footer ul.circled li:before {
 .revolution .tp-caption.large {
     font-size: 50px;
     line-height: 60px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -1425,7 +1426,7 @@ figure .link-out:hover {
 .cbp-filter-container .cbp-filter-item {
     cursor: pointer;
     display: inline-block;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     padding: 0 0 7px 0;
     margin: 0 20px;
@@ -1452,7 +1453,7 @@ figure .link-out:hover {
     font: inherit
 }
 .cbp-l-caption-title {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
@@ -1652,7 +1653,7 @@ video {
     margin-top: 0
 }
 .timeline .date-title span {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 11px 20px 10px 20px;
     letter-spacing: 0.5px;
     font-size: 12px;
@@ -1819,7 +1820,7 @@ video {
     font-weight: 700;
     letter-spacing: 0.5px;
     padding-right: 5px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .format-link .post-title a:after {
     display: inline-block;
@@ -1965,7 +1966,7 @@ figure a .text-overlay .info {
     margin-top: -12px;
 }
 figure a .text-overlay .info span {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 14px;
@@ -2245,7 +2246,7 @@ figure a .text-overlay .info span {
     text-align: center;
     color: #FFF;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 0.5px;
@@ -2333,7 +2334,7 @@ figure a .text-overlay .info span {
     margin-right: 3px;
 }
 .tabs-top .tab a {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 9px 20px;
     display: block;
     color: #434343;
@@ -2489,6 +2490,9 @@ figure a .text-overlay .info span {
 }
 .panel.pricing .panel-heading {
     padding: 30px 0
+}
+.panel.pricing .panel-heading .section-title {
+    padding: 0 20px;
 }
 .panel.pricing .panel-title {
     text-transform: uppercase;
